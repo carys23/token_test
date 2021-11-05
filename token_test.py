@@ -2,7 +2,7 @@ import json
 import requests
 import secrets as secrets
 
-access_token = secrets.access_token
+access_token = ${{ secrets.GITHUB_TOKEN }}
 
 
 def post_data_to_portal(access_token):
